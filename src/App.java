@@ -17,21 +17,14 @@ public class App {
 
 	public static void main(String[] parametres) {
 		
-		NouvelleDAO nouvelleDAO = new NouvelleDAO();
-		List<Nouvelle> nouvelles = nouvelleDAO.listerNouvelles();
-	
-		for(Nouvelle nouvelle:nouvelles)
-		{
-			System.out.println(nouvelle.getTitre());
-		}
 		
 		//Pays pays = new Pays();
 		//pays.setNom("Quebec");
 		
 		//Controleur.choisirVuePrincipale(VueMirador.class);
 		//Controleur.choisirVuePrincipale(VueCocktail.class);
-		//Controleur.choisirVuePrincipale(VueNouvelles.class);
-		//Fenetre.launch(Fenetre.class, parametres);	
+		Controleur.choisirVuePrincipale(VueNouvelles.class);
+		Fenetre.launch(Fenetre.class, parametres);	
 		
 	}
 
