@@ -6,6 +6,7 @@ public class Nouvelle {
 	protected String auteur;
 	protected String resume;
 	protected String date;
+	protected String lien;
 	
 	
 	public Nouvelle() {
@@ -49,6 +50,15 @@ public class Nouvelle {
 	public void setDate(String date) {
 		this.date = date;
 	}
+
+	public String getLien() {
+		return lien;
+	}
+
+	public void setLien(String lien) {
+		this.lien = lien;
+	}
+	
 	
 	
 
