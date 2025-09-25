@@ -7,6 +7,7 @@ import com.sun.media.jfxmedia.logging.Logger;
 import architecture.Vue;
 import controleur.ControleurCoktail;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import modele.Cocktail;
 
 public class VueCocktail extends Vue {
@@ -23,7 +24,8 @@ public class VueCocktail extends Vue {
 
 	public void afficherCocktails(List<Cocktail> cocktails) {
 
-			//HBox vueCocktails = (HBox) lookup("#boite-cocktails");
+		System.out.println("VueCocktail.afficherCocktails()");
+		VBox vueCocktails = (VBox) lookup("#boite-cocktails");
 			//vueCocktails.getChildren().clear();
 	}
 	

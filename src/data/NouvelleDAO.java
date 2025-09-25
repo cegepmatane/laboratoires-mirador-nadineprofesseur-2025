@@ -69,6 +69,7 @@ public class NouvelleDAO {
 				nouvelle.setDate(date);
 				nouvelle.setResume(description);
 				nouvelle.setLien(lien);
+				
 				nouvelles.add(nouvelle);
 			}
 			

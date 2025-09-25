@@ -32,7 +32,7 @@ public class ControleurCoktail extends Controleur {
 		cocktails.add(cocktail5);
 		cocktails.add(cocktail6);
 		
-		//VueCocktail.getInstance().afficherCocktails(cocktails);
+		VueCocktail.getInstance().afficherCocktails(cocktails);
 		
 		
 		
