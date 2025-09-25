@@ -33,7 +33,13 @@ public class BarbareDAO {
 			System.out.println(nom);
 		}
 		
-		
+		JsonArray avantages = document.get("saving_throws").getAsJsonArray();
+		for(int position = 0; position < avantages.size(); position++)
+		{
+			JsonObject avantage = avantages.get(position).getAsJsonObject();
+			String nom = avantage.get("name").getAsString();
+			System.out.println(nom);
+		}
 		
 		
 		
